@@ -1,0 +1,8 @@
+- Started data preprocessing steps
+- Created adata matrix from GSE278688 cell-by-gene matrix using Scanpy
+- Filtered out cells with low gene expression & genes that were found in very few cells
+- Annotated mitochondrial, hemoglobin, and ribosomal genes in the adata and calculated QC metrics based on those genes
+- Created violin plot for n_genes_by_counts, total_counts, and pct_counts_mt
+![[QC_Violin_Plots.png]]
+- Created scatter plot for pct_counts_mt
+![[20250728_pct_count_mt_ScatterPlot.png]]
